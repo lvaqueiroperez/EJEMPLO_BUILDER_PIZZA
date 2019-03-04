@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ejemplo_builder_pizza;
 
 public class PizzaBuilderAUTO {
@@ -20,7 +15,7 @@ public class PizzaBuilderAUTO {
     public PizzaBuilderAUTO(final float grHarina, final float mlAgua) {
 
         this.grHarina = grHarina;
-        this.grPinha = grPinha;
+        this.mlAgua = mlAgua;
 
     }
 
