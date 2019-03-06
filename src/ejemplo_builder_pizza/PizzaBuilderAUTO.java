@@ -1,5 +1,10 @@
 package ejemplo_builder_pizza;
 
+/**
+ * Clase Builder creada automáticamente, igual que el anterior
+ *
+ * @author luis-
+ */
 public class PizzaBuilderAUTO {
 
     private float grHarina;

@@ -1,12 +1,13 @@
 package ejemplo_builder_pizza;
 
 /**
- * Clase donde se hará el builder, en este caso de pizzas
+ * Clase donde se hará el Builder
  *
  * @author lvaqueiroperez
  */
 public class PizzaBuilder {
 
+    //inicializar los atributos opcionales con un valor arbitrario
     private float grHarina;
     private float mlAgua;
     private float grSal = 0;
@@ -70,7 +71,9 @@ public class PizzaBuilder {
     }
 
     /**
-     * Método que finalmente devuelve un objeto de tipo Pìzza con los parámetros puestos
+     * Método que finalmente devuelve un objeto de tipo Pìzza con los parámetros
+     * puestos
+     *
      * @return objeto Pizza
      */
     public Pizza createPizzaManual() {

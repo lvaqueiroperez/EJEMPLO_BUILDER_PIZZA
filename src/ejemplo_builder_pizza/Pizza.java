@@ -1,11 +1,12 @@
 package ejemplo_builder_pizza;
 
 /**
- *Clase donde se crearán los atributos de los objetos y el constructor inicial
+ * Clase donde se crearán los atributos de los objetos y el constructor inicial
+ *
  * @author lvaqueiroperez
  */
 public class Pizza {
-    
+
     //atributos
     private float grHarina;
     private float mlAgua;
@@ -17,10 +18,10 @@ public class Pizza {
     private String tipoQueso;
     private float grPinha;
 
-    
     /**
-     * Constructor donde pondremos todos los atributos de la clase y
-     * como "final" aquellos que serán obligatorios
+     * Constructor donde pondremos todos los atributos de la clase y como
+     * "final" aquellos que serán obligatorios
+     *
      * @param grHarina
      * @param mlAgua
      * @param grSal
@@ -29,7 +30,7 @@ public class Pizza {
      * @param grTomate
      * @param grQueso
      * @param tipoQueso
-     * @param grPinha 
+     * @param grPinha
      */
     public Pizza(final float grHarina, final float mlAgua, float grSal, float mlAceite, String tipoAceite, float grTomate, float grQueso, String tipoQueso, float grPinha) {
         this.grHarina = grHarina;
